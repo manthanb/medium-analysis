@@ -1,0 +1,18 @@
+{
+	"mode": "debug",
+	"maxUserCount": 550,
+	"maxChildrenCount": 10,
+	"initialUser": "@AlexWhitcomb_",
+	"db": {
+		"url": "mongodb://localhost:27017",
+		"name": "medium",
+		"collection": "userinfo"
+	},
+	"medium": {
+		"baseURL": "https://medium.com/",
+		"headers": {
+    		"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
+    		"Info": "Crawling just 500 users for school project"
+  		}
+	}
+}
